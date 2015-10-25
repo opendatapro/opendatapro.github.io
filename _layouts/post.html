@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<title>{{ post.title }}</title>
+
+		<meta name="description" content="{{ post.excerpt | remove: '<p>' | remove: '</p>' }}">
+		
+		<link href="//cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css">
+		<link href="/css/style.css" rel="stylesheet" type="text/css">
+	</head>
+	<body>
+		<div class="wrap"> 
+			{% include navigation.html %}
+
+			{{ content }}
+		
+			{% include mailchimp.html %}
+
+			{% if page.next.url %}
+				<h2>Read next</h2>
+				<a class="next" href="{{page.next.url}}">{{page.next.title}}</a>
+			{% else %}
+				<h2>What to read next?</h2>
+				<h2>There's a new post each Wednesday. If you can't wait, take a look at the previous posts on the <a href="opendatapro.com">homepage</a>.</h2>
+			{% endif %}
+		</div>
+	</body>
+</html>
