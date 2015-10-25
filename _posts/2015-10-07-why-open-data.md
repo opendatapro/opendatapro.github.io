@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Why care about open data?
 permalink: why-open-data
 ---

@@ -1,4 +1,5 @@
 ---
+layout: post
 title: What makes open data open?
 permalink: what-makes-open-data-open
 ---

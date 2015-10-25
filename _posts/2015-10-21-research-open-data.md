@@ -1,4 +1,5 @@
 ---
+layout: post
 title: How to boost the impact of your research paper with open data?
 permalink: research-open-data
 ---
