@@ -10,6 +10,8 @@
 		
 		<link href="//cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css">
 		<link href="/css/style.css" rel="stylesheet" type="text/css">
+		
+		{% include analyticsHead.html %}
 	</head>
 	<body>
 		<div class="wrap"> 
@@ -26,6 +28,10 @@
 				<h2>What to read next?</h2>
 				<p>There's a new post each Wednesday. If you can't wait, take a look at the previous posts on the <a href="opendatapro.com">homepage</a>.</p>
 			{% endif %}
+			
+			{% include footer.html %}
+			
+			{% include analyticsFooter.html %}
 		</div>
 	</body>
 </html>
