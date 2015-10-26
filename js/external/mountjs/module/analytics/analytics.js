@@ -38,11 +38,17 @@ window.m.analytics = (function(){
 	}
 	
 	var disable = function(){
-		//Remove Google Analytics cookies [2]
-		m.cookie.remove('_ga');
-		m.cookie.remove('_gat');
+		//-- Remove Google Analytics cookies [2] --
+		//Find highest domain
+		var i = document.domain.lastIndexOf('.'); 
+		var i2 = document.domain.slice(0,i).lastIndexOf('.')
+		var domain = document.domain.slice(i2)
 		
-		//Add cookie to know to disable Google Analytics
+		//Remove cookies
+		m.cookie.remove('_ga', domain);
+		m.cookie.remove('_gat', domain);
+		
+		//-- Add cookie to know to disable Google Analytics --
 		m.cookie.set('disableCookies','true');
 	};
 	
