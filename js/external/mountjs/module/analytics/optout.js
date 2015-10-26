@@ -7,17 +7,16 @@ Cookie notification
 */
 if (!m.cookie.get('notifiedCookies')
  && !m.cookie.get('disableCookies')){
-	var $note = m.notification({
-								html : [
-										'This website uses cookies for ',
-										'analytics and functionality.', 
-										'See ', 
-										'<a href="/privacy/">',
-										'cookie policy & settings',
-										'</a>',
-										' for details.'
-										].join('')
-								});
+	var $note = m.notification([
+								'This website uses cookies for ',
+								'analytics and functionality.', 
+								'See ', 
+								'<a href="/cookies/">',
+								'cookie policy & settings',
+								'</a>',
+								' for details.'
+								].join('')
+								);
 
 	//Button press: confirm notification received
 	$('button', $note).on('mousedown', function(e){
