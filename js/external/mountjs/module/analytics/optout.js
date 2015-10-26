@@ -9,9 +9,9 @@ if (!m.cookie.get('notifiedCookies')
  && !m.cookie.get('disableCookies')){
 	var $note = m.notification([
 								'This website uses cookies for ',
-								'analytics and functionality.', 
+								'analytics and functionality. ', 
 								'See ', 
-								'<a href="/cookies/">',
+								'<a href="/privacy/">',
 								'cookie policy & settings',
 								'</a>',
 								' for details.'
@@ -35,9 +35,9 @@ Cookie settings
 */
 //----- If cookie enabled, make checked true -----
 $(document).ready(function(){
-	var isChecked = true;
+	var isChecked = 'checked="checked"';
 	if (m.cookie.get('disableCookies')){
-		isChecked = false;
+		isChecked = ''; //false
 	}
 
 	var inputEl = [
