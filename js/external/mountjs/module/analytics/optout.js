@@ -46,19 +46,20 @@ $(document).ready(function(){
 					'Google Analytics</label>'
 					].join('')
 	$('#enableAnalytics').html(inputEl);
-})
 
-//----- Enable toogle -----
-$(document).on('change', '#enableAnalytics input', function(){
-	if ( $(this).is(':checked') ){
-		m.analytics.enable();
-		/*
-		If someone enables cookies manually, 
-		they already know the Cookie policy
-		*/
-		m.cookie.set('notifiedCookies','true');	
-	}
-	else{
-		m.analytics.disable();
-	}
+
+	//----- Enable toogle -----
+	$(document).on('change', '#enableAnalytics input', function(){
+		if ( $(this).is(':checked') ){
+			m.analytics.enable();
+			/*
+			If someone enables cookies manually, 
+			they already know the Cookie policy
+			*/
+			m.cookie.set('notifiedCookies','true');	
+		}
+		else{
+			m.analytics.disable();
+		}
+	})
 })
