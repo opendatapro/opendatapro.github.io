@@ -9,8 +9,8 @@ if (!m.cookie.get('notifiedCookies')
  && !m.cookie.get('disableCookies')){
 	var $note = m.notification({
 								html : [
-										'This website uses cookies for 
-										analytics and functionality.', 
+										'This website uses cookies for ',
+										'analytics and functionality.', 
 										'See ', 
 										'<a href="/privacy/">',
 										'cookie policy & settings',

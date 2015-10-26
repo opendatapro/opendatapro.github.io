@@ -18,7 +18,7 @@ Module
 ------
 */
 if (typeof m === "undefined"){
-	m = {};
+	window.m = {};
 }
 window.m.analytics = (function(){
 	//----- Main functions -----

@@ -1,7 +1,7 @@
 'use strict';
 
 if (typeof m === "undefined"){
-	m = {};
+	window.m = {};
 }
 window.m.notification = (function(param){
 	//----- Helper functions -----
@@ -83,5 +83,4 @@ window.m.notification = (function(param){
 	//----- Package module -----
 	//Make the notification jQuery object available
 	return notification;
-}
 }());

@@ -1,7 +1,7 @@
 'use strict';
 
 if (typeof m === "undefined"){
-	m = {};
+	window.m = {};
 }
 window.m.cookie = (function(){
 	//----- Helper functions -----		
