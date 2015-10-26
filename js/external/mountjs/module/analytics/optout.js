@@ -49,7 +49,7 @@ $(document).ready(function(){
 })
 
 //----- Enable toogle -----
-$('#enableAnalytics input').on('change', function(){
+$(document).on('change', '#enableAnalytics input', function(){
 	if ( $(this).is(':checked') ){
 		m.analytics.enable();
 		/*
