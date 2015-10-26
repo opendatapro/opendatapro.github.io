@@ -9,7 +9,7 @@ window.m.notification = (function(param){
 	var objToCSS = function(obj){
 		var css = '';
 		
-		for (prop in obj){
+		for (var prop in obj){
 			var val = obj[prop];
 			css += [prop,':',val,';'].join("");
 		}
