@@ -41,8 +41,11 @@ window.m.analytics = (function(){
 		//-- Remove Google Analytics cookies [2] --
 		//Find highest domain
 		var i = document.domain.lastIndexOf('.'); 
-		var i2 = document.domain.slice(0,i).lastIndexOf('.')
-		var domain = document.domain.slice(i2)
+		var i2 = document.domain.slice(0,i).lastIndexOf('.');
+		var domain = document.domain.slice(i2);
+		if (i2 === -1){
+			domain = '.' + document.domain;
+		}
 		
 		//Remove cookies
 		m.cookie.remove('_ga', domain);
