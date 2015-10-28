@@ -15,7 +15,7 @@ If you’re offering open data, it’s only logical to offer it in an open forma
 Knowing exactly how a format works means it is easier to learn and implement. Having to always re-learn even small differences soon gets annoying, requires additional work and is more prone to cause in errors. A lack of standards usually results in waste of time that could be better spent. 
 
 ## Parsing support
-Openness and standardisation have a lot to do with parsing support. That is, how diverse is the number of application and programming environments that provide a way to deal with the given format. For example, if you are catering mostly to consumers who use Excel you should consider using [CSV][https://tools.ietf.org/html/rfc4180]. 
+Openness and standardisation have a lot to do with parsing support. That is, how diverse is the number of application and programming environments that provide a way to deal with the given format. For example, if you are catering mostly to consumers who use Excel you should consider using [CSV](https://tools.ietf.org/html/rfc4180). 
 
 On the other hand if you want to develop a platform for developers than it might be preferred to use XML or JSON, both of which are widely supported by different programming languages.
 
