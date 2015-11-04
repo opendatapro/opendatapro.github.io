@@ -57,9 +57,9 @@ While there are solutions to most of these issues, they point to one of the weak
 ## Conclusion
 All in all, CSV is a compact format, friendly to the human reader as well as being straightforward to write and parse programmatically. Despite not having universal standardisation and lacking in expressiveness, it’s advantages make it a format worth your consideration.
 
-[1]http://tools.ietf.org/html/rfc4180
-[2]https://en.wikipedia.org/wiki/Delimiter-separated_values
-[3]http://stackoverflow.com/questions/1216380/what-is-a-stream
-[4]https://help.github.com/articles/rendering-csv-and-tsv-data/
-[5]http://hendohover.com
-[6]https://tools.ietf.org/html/rfc4180#page-4
+[1]:http://tools.ietf.org/html/rfc4180
+[2]:https://en.wikipedia.org/wiki/Delimiter-separated_values
+[3]:http://stackoverflow.com/questions/1216380/what-is-a-stream
+[4]:https://help.github.com/articles/rendering-csv-and-tsv-data/
+[5]:http://hendohover.com
+[6]:https://tools.ietf.org/html/rfc4180#page-4
