@@ -35,7 +35,7 @@ Even though it may seem logical based on the context that the first row represen
  
 One way to solve this would be to note it elsewhere, perhaps as an optional parameter of the [MIME type][6].
 
-Continuing with our example, let’s say *Startup 1* decided to stop working on the hover-board (they discovered [another company] was much closer to as solution) and are looking for a new idea. In the meantime *Startup 2* has decided to add a pizza-delivery service to their product list.
+Continuing with our example, let’s say *Startup 1* decided to stop working on the hover-board (they discovered [another company][5] was much closer to as solution) and are looking for a new idea. In the meantime *Startup 2* has decided to add a pizza-delivery service to their product list.
  
 This presents two common issues of CSV, namely now our first row has only two values (Company and Valuation) and secondly in the second row under Product we have a list of two product (using a comma within the *table-cell* value is expected).
 
