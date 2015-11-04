@@ -6,7 +6,7 @@ permalink: csv-format
 
 # CSV as a format for your open data
 
-*Comma separated values* or CSV as been around for a very long time and is among the simplest of formats, after all the name says it all.
+*Comma separated values* or CSV has been around for a very long time and is among the simplest of formats, after all the name says it all.
 
 It’s simplicity makes it relatively compact in size and easy to [stream][3]. These properties make CSV a convenient option for (transferring) large amounts of data.
 
