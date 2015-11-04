@@ -26,10 +26,10 @@ To illustrate let’s look at an example.
 
 The same data from the table above could presented with CSV in the following manner:
 
-> Company,Product,Valuation (mio EUR)    
-> Startup 1,Hover-board,100
-> Startup 2,Teleport,700 000
-> Startup 3,Robot butler,300 000
+	Company,Product,Valuation (mio EUR)    
+	Startup 1,Hover-board,100
+	Startup 2,Teleport,700 000
+	Startup 3,Robot butler,300 000
 
 Even though it may seem logical based on the context that the first row represents a header row it needs to be pointed out that we didn’t add any special markup, meaning the header row might easily be misinterpreted as a regular row.
  
@@ -41,10 +41,10 @@ This presents two common issues of CSV, namely now our first row has only two va
 
 The new CSV file might look like this:
 
-> Company,Product,Valuation (mio EUR)    
-> Startup 1,,100
-> Startup 2,”Teleport, Pizza-delivery”,700 000
-> Startup 3,Robot butler,300 000
+	Company,Product,Valuation (mio EUR)    
+	Startup 1,,100
+	Startup 2,”Teleport, Pizza-delivery”,700 000
+	Startup 3,Robot butler,300 000
 
 If we adhere to the table metaphor than it makes sense to use the same number of values in each row. Remember, even if there is no actual value the second comma let’s us know that that *table-cell* is empty. 
 
