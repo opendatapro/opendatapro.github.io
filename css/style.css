@@ -44,7 +44,7 @@ p{
 }
 
 .footer{
-	margin: 10em 0 0;
+	margin: 8em 0 0;
 	font-size: 0.75em;
 }
 
@@ -102,5 +102,8 @@ p{
 	}
 	#mc_embed_signup{
 		margin: 4.5em 0;
+	}
+	.logo{
+		margin-bottom: 4.5em;
 	}
 }
