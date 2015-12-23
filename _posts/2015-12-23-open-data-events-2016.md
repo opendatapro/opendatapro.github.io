@@ -42,7 +42,7 @@ __When:__ 6th-7th October, 2016
 
 __More info:__ [http://opendatacon.org][4]
 
-[1]: http://2016.openbelgium.be
-[2]: http://www.flossuk.org/Events/Spring2016
-[3]: http://opendatascicon.com
-[4]: http://opendatacon.org
+[1]:http://2016.openbelgium.be
+[2]:http://www.flossuk.org/Events/Spring2016
+[3]:http://opendatascicon.com
+[4]:http://opendatacon.org
